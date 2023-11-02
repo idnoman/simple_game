@@ -1,0 +1,5 @@
+<launch>
+  <node name="map_generator" pkg="simple_game" type="map_generator.py" ></node>
+  <node name="pawn_controller" pkg="simple_game" type="pawn_controller.py" output="screen"></node>
+  <node name="session_stats" pkg="simple_game" type="session_stats.py" output="screen"></node>
+</launch>
