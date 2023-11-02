@@ -26,7 +26,7 @@ Posczególne node'y:
 `map_generator.py` - pobiera informacje o położeniu pionka z topicu **/simple_game/get_pawn_position** i generuje planszę oraz pionka wykorzystując bibliotekę Pygame
 
 ### Uruchamianie paczki
-Po odpowiednim zbudowaniu paczki, dzięki launchfile, można ją uruchomić poniższą komendą:
+Po odpowiednim zbudowaniu paczki należy, używając komendy `chmod +x nawza_pliku.py`, nadać wszystkim node'om uprawnienia do uruchamiania. Po zrobieniu tego, dzięki launchfile, można uruchomić paczkę poniższą komendą:
 ```bash
  roslaunch simple_game simple_game.launch 
 ```
